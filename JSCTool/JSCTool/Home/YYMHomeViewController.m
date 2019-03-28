@@ -36,7 +36,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"语言录制",@"弹出选择框"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框"];
     
 }
 
