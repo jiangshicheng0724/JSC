@@ -31,6 +31,17 @@
 		F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88A2224CBA58004E7DEA /* YYMShopCarViewController.m */; };
 		F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88A9224CBAAE004E7DEA /* YYMMineViewController.m */; };
 		F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88AF224CBD44004E7DEA /* AdViewController.m */; };
+		F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88B3224CBFC4004E7DEA /* PhotoViewController.m */; };
+		F01B88C2224CC072004E7DEA /* TZTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88B7224CC072004E7DEA /* TZTestCell.m */; };
+		F01B88C3224CC072004E7DEA /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88B9224CC072004E7DEA /* FLAnimatedImage.m */; };
+		F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88BA224CC072004E7DEA /* FLAnimatedImageView.m */; };
+		F01B88C5224CC072004E7DEA /* ZSImagePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88C0224CC072004E7DEA /* ZSImagePickView.m */; };
+		F01B88C6224CC072004E7DEA /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88C1224CC072004E7DEA /* LxGridViewFlowLayout.m */; };
+		F01B88CA224CC233004E7DEA /* SUViedoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88C8224CC233004E7DEA /* SUViedoViewController.m */; };
+		F01B88D2224CC2A2004E7DEA /* ZQPlayerImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F01B88CC224CC2A2004E7DEA /* ZQPlayerImage.bundle */; };
+		F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88CF224CC2A2004E7DEA /* ZQPlayer.m */; };
+		F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88D0224CC2A2004E7DEA /* ZQPlayerMaskView.m */; };
+		F01B88D5224CC2A2004E7DEA /* music.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01B88D1224CC2A2004E7DEA /* music.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +112,26 @@
 		F01B88A9224CBAAE004E7DEA /* YYMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMMineViewController.m; sourceTree = "<group>"; };
 		F01B88AE224CBD44004E7DEA /* AdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
 		F01B88AF224CBD44004E7DEA /* AdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		F01B88B2224CBFC4004E7DEA /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		F01B88B3224CBFC4004E7DEA /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		F01B88B7224CC072004E7DEA /* TZTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTestCell.m; sourceTree = "<group>"; };
+		F01B88B9224CC072004E7DEA /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		F01B88BA224CC072004E7DEA /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		F01B88BB224CC072004E7DEA /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		F01B88BC224CC072004E7DEA /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F01B88BD224CC072004E7DEA /* ZSImagePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSImagePickView.h; sourceTree = "<group>"; };
+		F01B88BE224CC072004E7DEA /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		F01B88BF224CC072004E7DEA /* TZTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTestCell.h; sourceTree = "<group>"; };
+		F01B88C0224CC072004E7DEA /* ZSImagePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSImagePickView.m; sourceTree = "<group>"; };
+		F01B88C1224CC072004E7DEA /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		F01B88C8224CC233004E7DEA /* SUViedoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUViedoViewController.m; sourceTree = "<group>"; };
+		F01B88C9224CC233004E7DEA /* SUViedoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUViedoViewController.h; sourceTree = "<group>"; };
+		F01B88CC224CC2A2004E7DEA /* ZQPlayerImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZQPlayerImage.bundle; sourceTree = "<group>"; };
+		F01B88CD224CC2A2004E7DEA /* ZQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQPlayer.h; sourceTree = "<group>"; };
+		F01B88CE224CC2A2004E7DEA /* ZQPlayerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQPlayerMaskView.h; sourceTree = "<group>"; };
+		F01B88CF224CC2A2004E7DEA /* ZQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQPlayer.m; sourceTree = "<group>"; };
+		F01B88D0224CC2A2004E7DEA /* ZQPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQPlayerMaskView.m; sourceTree = "<group>"; };
+		F01B88D1224CC2A2004E7DEA /* music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = music.gif; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +215,7 @@
 				F01B8897224CBA1B004E7DEA /* Classify */,
 				F01B88A6224CBAAE004E7DEA /* Mine */,
 				F01B889E224CBA58004E7DEA /* ShopCar */,
+				F01B88B5224CC068004E7DEA /* ThirdTool */,
 			);
 			path = JSCTool;
 			sourceTree = "<group>";
@@ -246,7 +278,9 @@
 		F01B888F224CB924004E7DEA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F01B88C7224CC210004E7DEA /* 视频播放 */,
 				F01B88AD224CBD31004E7DEA /* 广告图 */,
+				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
 			);
@@ -378,6 +412,72 @@
 			path = "广告图";
 			sourceTree = "<group>";
 		};
+		F01B88B1224CBFB6004E7DEA /* 照片选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88B2224CBFC4004E7DEA /* PhotoViewController.h */,
+				F01B88B3224CBFC4004E7DEA /* PhotoViewController.m */,
+			);
+			path = "照片选择器";
+			sourceTree = "<group>";
+		};
+		F01B88B5224CC068004E7DEA /* ThirdTool */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88B6224CC072004E7DEA /* ZSImagePickerView */,
+				F01B88CB224CC2A2004E7DEA /* ZQPlayer */,
+			);
+			path = ThirdTool;
+			sourceTree = "<group>";
+		};
+		F01B88B6224CC072004E7DEA /* ZSImagePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88B7224CC072004E7DEA /* TZTestCell.m */,
+				F01B88B8224CC072004E7DEA /* FLAnimatedImage */,
+				F01B88BD224CC072004E7DEA /* ZSImagePickView.h */,
+				F01B88BE224CC072004E7DEA /* LxGridViewFlowLayout.h */,
+				F01B88BF224CC072004E7DEA /* TZTestCell.h */,
+				F01B88C0224CC072004E7DEA /* ZSImagePickView.m */,
+				F01B88C1224CC072004E7DEA /* LxGridViewFlowLayout.m */,
+			);
+			path = ZSImagePickerView;
+			sourceTree = "<group>";
+		};
+		F01B88B8224CC072004E7DEA /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88B9224CC072004E7DEA /* FLAnimatedImage.m */,
+				F01B88BA224CC072004E7DEA /* FLAnimatedImageView.m */,
+				F01B88BB224CC072004E7DEA /* FLAnimatedImage.h */,
+				F01B88BC224CC072004E7DEA /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		F01B88C7224CC210004E7DEA /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88C9224CC233004E7DEA /* SUViedoViewController.h */,
+				F01B88C8224CC233004E7DEA /* SUViedoViewController.m */,
+			);
+			name = "视频播放";
+			path = "JSCTool/Home/视频播放";
+			sourceTree = SOURCE_ROOT;
+		};
+		F01B88CB224CC2A2004E7DEA /* ZQPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88CC224CC2A2004E7DEA /* ZQPlayerImage.bundle */,
+				F01B88CD224CC2A2004E7DEA /* ZQPlayer.h */,
+				F01B88CE224CC2A2004E7DEA /* ZQPlayerMaskView.h */,
+				F01B88CF224CC2A2004E7DEA /* ZQPlayer.m */,
+				F01B88D0224CC2A2004E7DEA /* ZQPlayerMaskView.m */,
+				F01B88D1224CC2A2004E7DEA /* music.gif */,
+			);
+			path = ZQPlayer;
+			sourceTree = "<group>";
+		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,6 +601,8 @@
 				F01B880F224CAFE5004E7DEA /* LaunchScreen.storyboard in Resources */,
 				F01B880C224CAFE5004E7DEA /* Assets.xcassets in Resources */,
 				F01B880A224CAFE2004E7DEA /* Main.storyboard in Resources */,
+				F01B88D2224CC2A2004E7DEA /* ZQPlayerImage.bundle in Resources */,
+				F01B88D5224CC2A2004E7DEA /* music.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,20 +714,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */,
+				F01B88C5224CC072004E7DEA /* ZSImagePickView.m in Sources */,
 				F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */,
 				F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */,
 				F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */,
+				F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */,
 				F01B8896224CB9A6004E7DEA /* YYMBaseViewController.m in Sources */,
 				F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */,
 				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
+				F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */,
 				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
 				F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */,
+				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
 				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
+				F01B88C2224CC072004E7DEA /* TZTestCell.m in Sources */,
 				F01B8812224CAFE5004E7DEA /* main.m in Sources */,
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
 				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
+				F01B88CA224CC233004E7DEA /* SUViedoViewController.m in Sources */,
+				F01B88C3224CC072004E7DEA /* FLAnimatedImage.m in Sources */,
 				F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */,
 				F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */,
+				F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */,
+				F01B88C6224CC072004E7DEA /* LxGridViewFlowLayout.m in Sources */,
 				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

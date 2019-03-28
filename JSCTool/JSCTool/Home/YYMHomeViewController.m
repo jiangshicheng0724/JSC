@@ -8,6 +8,8 @@
 
 #import "YYMHomeViewController.h"
 #import "AdViewController.h"
+#import "PhotoViewController.h"
+#import "SUViedoViewController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -31,7 +33,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放"];
     
 }
 
@@ -87,6 +89,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         AdViewController *vc = [[AdViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if(indexPath.row == 1){
+        PhotoViewController *vc = [[PhotoViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if(indexPath.row == 2){
+        SUViedoViewController *vc = [[SUViedoViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

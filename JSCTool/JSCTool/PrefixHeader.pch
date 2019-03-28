@@ -47,7 +47,8 @@
 
 #define UserDefaults ([NSUserDefaults standardUserDefaults])
 
-
+//照片选择器
+#define PCIPictureWidth 70
 
 //通知
 #define NotificationCenter ([NSNotificationCenter defaultCenter])
