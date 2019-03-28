@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JSCTool' do
+    pod 'AFNetworking'   
+    pod 'SDWebImage'
+    pod 'WZTool',:git => 'https://gitee.com/wenzhengban/WZTool.git'
+    pod 'SDCycleScrollView'
+    pod 'IQKeyboardManager'
+    pod 'MJExtension'
+    pod 'Masonry'
+    pod 'MJRefresh'
+    pod 'BlocksKit'
+    pod 'UITextView+Placeholder'
+    pod 'TZImagePickerController'
+    pod 'MOFSPickerManager'
+
+
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JSCTool
+
+  target 'JSCToolTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JSCToolUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

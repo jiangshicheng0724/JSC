@@ -1,0 +1,6 @@
+framework module Pods_JSCTool {
+  umbrella header "Pods-JSCTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

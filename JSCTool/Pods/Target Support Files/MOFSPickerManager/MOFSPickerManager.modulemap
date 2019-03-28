@@ -1,0 +1,6 @@
+framework module MOFSPickerManager {
+  umbrella header "MOFSPickerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
