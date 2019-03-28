@@ -18,6 +18,19 @@
 		F01B8812224CAFE5004E7DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8811224CAFE5004E7DEA /* main.m */; };
 		F01B881C224CAFE5004E7DEA /* JSCToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B881B224CAFE5004E7DEA /* JSCToolTests.m */; };
 		F01B8827224CAFE5004E7DEA /* JSCToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8826224CAFE5004E7DEA /* JSCToolUITests.m */; };
+		F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8879224CB8EB004E7DEA /* WZNavigationViewController.m */; };
+		F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B887A224CB8EB004E7DEA /* RYNavigationViewController.m */; };
+		F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B887B224CB8EB004E7DEA /* RYAnmationController.m */; };
+		F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B887C224CB8EB004E7DEA /* WZTabBarController.m */; };
+		F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8882224CB8EB004E7DEA /* WZNavigationBar.m */; };
+		F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8883224CB8EB004E7DEA /* WZTabBar.m */; };
+		F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8886224CB8EB004E7DEA /* WZBackView.m */; };
+		F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8890224CB968004E7DEA /* YYMHomeViewController.m */; };
+		F01B8896224CB9A6004E7DEA /* YYMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8894224CB9A6004E7DEA /* YYMBaseViewController.m */; };
+		F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B889A224CBA1B004E7DEA /* YYMClassifyViewController.m */; };
+		F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88A2224CBA58004E7DEA /* YYMShopCarViewController.m */; };
+		F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88A9224CBAAE004E7DEA /* YYMMineViewController.m */; };
+		F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88AF224CBD44004E7DEA /* AdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +74,33 @@
 		F01B8822224CAFE5004E7DEA /* JSCToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01B8826224CAFE5004E7DEA /* JSCToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCToolUITests.m; sourceTree = "<group>"; };
 		F01B8828224CAFE5004E7DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F01B8836224CB3D6004E7DEA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F01B8876224CB614004E7DEA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F01B8879224CB8EB004E7DEA /* WZNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZNavigationViewController.m; sourceTree = "<group>"; };
+		F01B887A224CB8EB004E7DEA /* RYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationViewController.m; sourceTree = "<group>"; };
+		F01B887B224CB8EB004E7DEA /* RYAnmationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAnmationController.m; sourceTree = "<group>"; };
+		F01B887C224CB8EB004E7DEA /* WZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTabBarController.m; sourceTree = "<group>"; };
+		F01B887D224CB8EB004E7DEA /* WZNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZNavigationViewController.h; sourceTree = "<group>"; };
+		F01B887E224CB8EB004E7DEA /* WZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTabBarController.h; sourceTree = "<group>"; };
+		F01B887F224CB8EB004E7DEA /* RYAnmationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAnmationController.h; sourceTree = "<group>"; };
+		F01B8880224CB8EB004E7DEA /* RYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationViewController.h; sourceTree = "<group>"; };
+		F01B8882224CB8EB004E7DEA /* WZNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZNavigationBar.m; sourceTree = "<group>"; };
+		F01B8883224CB8EB004E7DEA /* WZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTabBar.m; sourceTree = "<group>"; };
+		F01B8884224CB8EB004E7DEA /* WZBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBackView.h; sourceTree = "<group>"; };
+		F01B8885224CB8EB004E7DEA /* WZNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZNavigationBar.h; sourceTree = "<group>"; };
+		F01B8886224CB8EB004E7DEA /* WZBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBackView.m; sourceTree = "<group>"; };
+		F01B8887224CB8EB004E7DEA /* WZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTabBar.h; sourceTree = "<group>"; };
+		F01B8890224CB968004E7DEA /* YYMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMHomeViewController.m; sourceTree = "<group>"; };
+		F01B8891224CB968004E7DEA /* YYMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMHomeViewController.h; sourceTree = "<group>"; };
+		F01B8894224CB9A6004E7DEA /* YYMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMBaseViewController.m; sourceTree = "<group>"; };
+		F01B8895224CB9A6004E7DEA /* YYMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMBaseViewController.h; sourceTree = "<group>"; };
+		F01B8899224CBA1B004E7DEA /* YYMClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMClassifyViewController.h; sourceTree = "<group>"; };
+		F01B889A224CBA1B004E7DEA /* YYMClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMClassifyViewController.m; sourceTree = "<group>"; };
+		F01B88A1224CBA58004E7DEA /* YYMShopCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMShopCarViewController.h; sourceTree = "<group>"; };
+		F01B88A2224CBA58004E7DEA /* YYMShopCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMShopCarViewController.m; sourceTree = "<group>"; };
+		F01B88A8224CBAAE004E7DEA /* YYMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMMineViewController.h; sourceTree = "<group>"; };
+		F01B88A9224CBAAE004E7DEA /* YYMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMMineViewController.m; sourceTree = "<group>"; };
+		F01B88AE224CBD44004E7DEA /* AdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		F01B88AF224CBD44004E7DEA /* AdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,12 +172,18 @@
 				F01B8803224CAFE2004E7DEA /* AppDelegate.m */,
 				F01B8805224CAFE2004E7DEA /* ViewController.h */,
 				F01B8806224CAFE2004E7DEA /* ViewController.m */,
-				F01B8836224CB3D6004E7DEA /* PrefixHeader.pch */,
+				F01B8876224CB614004E7DEA /* PrefixHeader.pch */,
 				F01B8808224CAFE2004E7DEA /* Main.storyboard */,
 				F01B880B224CAFE5004E7DEA /* Assets.xcassets */,
 				F01B880D224CAFE5004E7DEA /* LaunchScreen.storyboard */,
 				F01B8810224CAFE5004E7DEA /* Info.plist */,
 				F01B8811224CAFE5004E7DEA /* main.m */,
+				F01B8893224CB9A6004E7DEA /* Base */,
+				F01B888F224CB924004E7DEA /* Home */,
+				F01B8877224CB8EB004E7DEA /* tabbar */,
+				F01B8897224CBA1B004E7DEA /* Classify */,
+				F01B88A6224CBAAE004E7DEA /* Mine */,
+				F01B889E224CBA58004E7DEA /* ShopCar */,
 			);
 			path = JSCTool;
 			sourceTree = "<group>";
@@ -159,6 +204,178 @@
 				F01B8828224CAFE5004E7DEA /* Info.plist */,
 			);
 			path = JSCToolUITests;
+			sourceTree = "<group>";
+		};
+		F01B8877224CB8EB004E7DEA /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8878224CB8EB004E7DEA /* Controller */,
+				F01B8881224CB8EB004E7DEA /* View */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		F01B8878224CB8EB004E7DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8879224CB8EB004E7DEA /* WZNavigationViewController.m */,
+				F01B887A224CB8EB004E7DEA /* RYNavigationViewController.m */,
+				F01B887B224CB8EB004E7DEA /* RYAnmationController.m */,
+				F01B887C224CB8EB004E7DEA /* WZTabBarController.m */,
+				F01B887D224CB8EB004E7DEA /* WZNavigationViewController.h */,
+				F01B887E224CB8EB004E7DEA /* WZTabBarController.h */,
+				F01B887F224CB8EB004E7DEA /* RYAnmationController.h */,
+				F01B8880224CB8EB004E7DEA /* RYNavigationViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01B8881224CB8EB004E7DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8882224CB8EB004E7DEA /* WZNavigationBar.m */,
+				F01B8883224CB8EB004E7DEA /* WZTabBar.m */,
+				F01B8884224CB8EB004E7DEA /* WZBackView.h */,
+				F01B8885224CB8EB004E7DEA /* WZNavigationBar.h */,
+				F01B8886224CB8EB004E7DEA /* WZBackView.m */,
+				F01B8887224CB8EB004E7DEA /* WZTabBar.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F01B888F224CB924004E7DEA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88AD224CBD31004E7DEA /* 广告图 */,
+				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
+				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F01B8893224CB9A6004E7DEA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8894224CB9A6004E7DEA /* YYMBaseViewController.m */,
+				F01B8895224CB9A6004E7DEA /* YYMBaseViewController.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F01B8897224CBA1B004E7DEA /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8898224CBA1B004E7DEA /* Controller */,
+				F01B889B224CBA1B004E7DEA /* Model */,
+				F01B889C224CBA1B004E7DEA /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		F01B8898224CBA1B004E7DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F01B8899224CBA1B004E7DEA /* YYMClassifyViewController.h */,
+				F01B889A224CBA1B004E7DEA /* YYMClassifyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01B889B224CBA1B004E7DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F01B889C224CBA1B004E7DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F01B889E224CBA58004E7DEA /* ShopCar */ = {
+			isa = PBXGroup;
+			children = (
+				F01B889F224CBA58004E7DEA /* ViewModel */,
+				F01B88A0224CBA58004E7DEA /* Controller */,
+				F01B88A3224CBA58004E7DEA /* Model */,
+				F01B88A4224CBA58004E7DEA /* View */,
+			);
+			path = ShopCar;
+			sourceTree = "<group>";
+		};
+		F01B889F224CBA58004E7DEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F01B88A0224CBA58004E7DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88A1224CBA58004E7DEA /* YYMShopCarViewController.h */,
+				F01B88A2224CBA58004E7DEA /* YYMShopCarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01B88A3224CBA58004E7DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F01B88A4224CBA58004E7DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F01B88A6224CBAAE004E7DEA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88A7224CBAAE004E7DEA /* Controller */,
+				F01B88AA224CBAAE004E7DEA /* Model */,
+				F01B88AB224CBAAE004E7DEA /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F01B88A7224CBAAE004E7DEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88A8224CBAAE004E7DEA /* YYMMineViewController.h */,
+				F01B88A9224CBAAE004E7DEA /* YYMMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01B88AA224CBAAE004E7DEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F01B88AB224CBAAE004E7DEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F01B88AD224CBD31004E7DEA /* 广告图 */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88AE224CBD44004E7DEA /* AdViewController.h */,
+				F01B88AF224CBD44004E7DEA /* AdViewController.m */,
+			);
+			path = "广告图";
 			sourceTree = "<group>";
 		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
@@ -394,9 +611,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */,
+				F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */,
+				F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */,
+				F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */,
+				F01B8896224CB9A6004E7DEA /* YYMBaseViewController.m in Sources */,
+				F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */,
+				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
+				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
 				F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */,
+				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
 				F01B8812224CAFE5004E7DEA /* main.m in Sources */,
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
+				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
+				F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */,
+				F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */,
+				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +799,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = JSCTool/PrefixHeader.pch;
 				INFOPLIST_FILE = JSCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,6 +817,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = JSCTool/PrefixHeader.pch;
 				INFOPLIST_FILE = JSCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

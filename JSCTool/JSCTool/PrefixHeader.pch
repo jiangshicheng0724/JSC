@@ -9,7 +9,50 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "WZToolHeader.h"
+#import <Masonry.h>
+#import <MJExtension.h>
+#import "NSObject+MJKeyValue.h"
+#import "BlocksKit.h"
+#import "BlocksKit+MessageUI.h"
+#import "BlocksKit+UIKit.h"
+#import "UIImageView+WebCache.h"
+
+
+//分割线颜色
+#define SeparatorCOLOR                          [UIColor getColorWithHexString:@"#dddddd"]
+
+#define TableColor                              [UIColor getColorWithHexString:@"#F5F5F5"]
+//主题色
+#define ThemeColor                              [UIColor getColorWithHexString:@"#309CF5"]
+#define ClearColor                              [UIColor clearColor]
+#define WhiteColor                              [UIColor whiteColor]
+#define YellowColor                             [UIColor getColorWithHexString:@"#FED452"]
+#define RedColor                                [UIColor getColorWithHexString:@"#F0250F"]
+
+#define FirstColor                              [UIColor getColorWithHexString:@"333333"]   //一级标题颜色
+#define SecondColor                             [UIColor getColorWithHexString:@"666666"]  //二级标题颜色
+#define ThirdColor                              [UIColor getColorWithHexString:@"999999"]   //三级标题颜色
+
+/*----------------占位图------------------------------------------------*/
+#define AvatarPlaceholderImage                  [UIImage imageNamed:@"661548728114_.pic_hd.jpg"]//头像占位图
+#define PLACEHOLDERGOODSIMAGE                   [UIImage imageNamed:@"8781548747756_.pic_hd.jpg"]
+#define BannarPlaceholderImage                  [UIImage imageNamed:@"8781548747756_.pic_hd.jpg"]
+
+#define NumPerPage @"10" //分页数据，每页的数量
+// 字体
+#define kFont(x) [UIFont fontWithName:@"PingFang-SC-Medium"size:x*kRatioX6]
+// 字体
+#define WZFont(x) [UIFont systemFontOfSize:x weight:UIFontWeightMedium]
+
+#define UserDefaults ([NSUserDefaults standardUserDefaults])
+
+
+
+//通知
+#define NotificationCenter ([NSNotificationCenter defaultCenter])
+
+#define KNotificationCenterHomeTopFunctionViewESZQ  @"KNotificationCenterHomeTopFunctionViewESZQ" //二手专区
+
 
 #endif /* PrefixHeader_pch */
