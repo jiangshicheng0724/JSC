@@ -16,6 +16,9 @@
 		F001E34C224CE13300741726 /* ZWPhotoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E344224CE13300741726 /* ZWPhotoPreview.m */; };
 		F001E34D224CE13300741726 /* ZWPhotoPreviewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E345224CE13300741726 /* ZWPhotoPreviewConfig.m */; };
 		F001E34E224CE13300741726 /* ZWPhotoPreviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E346224CE13300741726 /* ZWPhotoPreviewDataModel.m */; };
+		F001E355224CE28900741726 /* HHRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E353224CE28900741726 /* HHRefreshFooter.m */; };
+		F001E356224CE28900741726 /* HHRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E354224CE28900741726 /* HHRefreshHeader.m */; };
+		F001E359224CE29F00741726 /* RefeshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E358224CE29F00741726 /* RefeshViewController.m */; };
 		F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E2CB224CC9F7005B5E8F /* MusicViewController.m */; };
 		F017E306224CD26B005B5E8F /* YYMCancalOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E305224CD26B005B5E8F /* YYMCancalOrderController.m */; };
 		F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E308224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m */; };
@@ -99,6 +102,12 @@
 		F001E346224CE13300741726 /* ZWPhotoPreviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoPreviewDataModel.m; sourceTree = "<group>"; };
 		F001E347224CE13300741726 /* ZWPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoPreviewCell.h; sourceTree = "<group>"; };
 		F001E348224CE13300741726 /* ZWPhotoAskSaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoAskSaveView.h; sourceTree = "<group>"; };
+		F001E351224CE28900741726 /* HHRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRefreshHeader.h; sourceTree = "<group>"; };
+		F001E352224CE28900741726 /* HHRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHRefreshFooter.h; sourceTree = "<group>"; };
+		F001E353224CE28900741726 /* HHRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRefreshFooter.m; sourceTree = "<group>"; };
+		F001E354224CE28900741726 /* HHRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRefreshHeader.m; sourceTree = "<group>"; };
+		F001E357224CE29F00741726 /* RefeshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefeshViewController.h; sourceTree = "<group>"; };
+		F001E358224CE29F00741726 /* RefeshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefeshViewController.m; sourceTree = "<group>"; };
 		F017E2CA224CC9F7005B5E8F /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		F017E2CB224CC9F7005B5E8F /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		F017E304224CD26B005B5E8F /* YYMCancalOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMCancalOrderController.h; sourceTree = "<group>"; };
@@ -247,6 +256,28 @@
 			path = ZWPhotoPreview;
 			sourceTree = "<group>";
 		};
+		F001E34F224CE28900741726 /* 刷新工具 */ = {
+			isa = PBXGroup;
+			children = (
+				F001E350224CE28900741726 /* RYRefresh */,
+				F001E357224CE29F00741726 /* RefeshViewController.h */,
+				F001E358224CE29F00741726 /* RefeshViewController.m */,
+			);
+			name = "刷新工具";
+			path = "JSCTool/Home/刷新工具";
+			sourceTree = SOURCE_ROOT;
+		};
+		F001E350224CE28900741726 /* RYRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F001E351224CE28900741726 /* HHRefreshHeader.h */,
+				F001E352224CE28900741726 /* HHRefreshFooter.h */,
+				F001E353224CE28900741726 /* HHRefreshFooter.m */,
+				F001E354224CE28900741726 /* HHRefreshHeader.m */,
+			);
+			path = RYRefresh;
+			sourceTree = "<group>";
+		};
 		F017E2C9224CC9EB005B5E8F /* 图片查看器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +408,7 @@
 				F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */,
 				F017E2C9224CC9EB005B5E8F /* 图片查看器 */,
 				F017E303224CD26B005B5E8F /* 弹出选择框 */,
+				F001E34F224CE28900741726 /* 刷新工具 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
@@ -845,11 +877,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01B88ED224CC6F5004E7DEA /* SGRecordProgressView.m in Sources */,
+				F001E359224CE29F00741726 /* RefeshViewController.m in Sources */,
+				F001E356224CE28900741726 /* HHRefreshHeader.m in Sources */,
 				F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */,
 				F01B88EA224CC6F5004E7DEA /* SGRecordEncoder.m in Sources */,
 				F01B88C5224CC072004E7DEA /* ZSImagePickView.m in Sources */,
 				F001E34B224CE13300741726 /* ZWPhotoPreviewCell.m in Sources */,
 				F01B88E9224CC6F5004E7DEA /* SGMotionManager.m in Sources */,
+				F001E355224CE28900741726 /* HHRefreshFooter.m in Sources */,
 				F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */,
 				F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */,
 				F001E34D224CE13300741726 /* ZWPhotoPreviewConfig.m in Sources */,

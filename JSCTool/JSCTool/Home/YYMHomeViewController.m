@@ -13,6 +13,7 @@
 #import "ShotViedoViewController.h"
 #import "MusicViewController.h"
 #import "YYMCancalOrderController.h"
+#import "RefeshViewController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -36,7 +37,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框",@"刷新工具"];
     
 }
 
@@ -110,7 +111,11 @@
         vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
         vc.cancalText = @[@"不喜欢/不想要",@"商品买错（颜色、尺寸等选错）",@"未按约定时间发货",@"缺货",@"地址写错",@"其他原因"];
         [self presentViewController:vc animated:YES completion:nil];
+    }else if (indexPath.row){
+        RefeshViewController *vc = [[RefeshViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
+    
 }
 
 
