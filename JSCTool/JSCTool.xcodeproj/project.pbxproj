@@ -19,6 +19,31 @@
 		F001E355224CE28900741726 /* HHRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E353224CE28900741726 /* HHRefreshFooter.m */; };
 		F001E356224CE28900741726 /* HHRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E354224CE28900741726 /* HHRefreshHeader.m */; };
 		F001E359224CE29F00741726 /* RefeshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E358224CE29F00741726 /* RefeshViewController.m */; };
+		F001E394224CE7D600741726 /* LMNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E360224CE7D500741726 /* LMNTextView.m */; };
+		F001E395224CE7D600741726 /* UIFont+LMNote.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E361224CE7D500741726 /* UIFont+LMNote.m */; };
+		F001E396224CE7D600741726 /* LMNTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E362224CE7D500741726 /* LMNTextStorage.m */; };
+		F001E397224CE7D600741726 /* LMNTextStorage+Export.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E366224CE7D500741726 /* LMNTextStorage+Export.m */; };
+		F001E398224CE7D600741726 /* LMNPhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E369224CE7D500741726 /* LMNPhotoCollectionCell.m */; };
+		F001E399224CE7D600741726 /* LMNImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E36A224CE7D500741726 /* LMNImageView.m */; };
+		F001E39A224CE7D600741726 /* LMNToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E370224CE7D600741726 /* LMNToolBar.m */; };
+		F001E39B224CE7D600741726 /* LMNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E371224CE7D600741726 /* LMNWebViewController.m */; };
+		F001E39C224CE7D600741726 /* LMNImageInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E372224CE7D600741726 /* LMNImageInputViewController.m */; };
+		F001E39D224CE7D600741726 /* LMNLineChain+Numbering.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E374224CE7D600741726 /* LMNLineChain+Numbering.m */; };
+		F001E39E224CE7D600741726 /* LMNSpecialLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E37C224CE7D600741726 /* LMNSpecialLine.m */; };
+		F001E39F224CE7D600741726 /* LMNLineChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E37D224CE7D600741726 /* LMNLineChain.m */; };
+		F001E3A0224CE7D600741726 /* LMNBulletsLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E37E224CE7D600741726 /* LMNBulletsLine.m */; };
+		F001E3A1224CE7D600741726 /* LMNNumberingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E37F224CE7D600741726 /* LMNNumberingLine.m */; };
+		F001E3A2224CE7D600741726 /* LMNImageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E380224CE7D600741726 /* LMNImageLine.m */; };
+		F001E3A3224CE7D600741726 /* LMNLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E382224CE7D600741726 /* LMNLine.m */; };
+		F001E3A4224CE7D600741726 /* LMNTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E383224CE7D600741726 /* LMNTextLine.m */; };
+		F001E3A5224CE7D600741726 /* LMNCheckboxLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E385224CE7D600741726 /* LMNCheckboxLine.m */; };
+		F001E3A6224CE7D600741726 /* LMNItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E388224CE7D600741726 /* LMNItem.m */; };
+		F001E3A7224CE7D600741726 /* LMNFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E389224CE7D600741726 /* LMNFolder.m */; };
+		F001E3A8224CE7D600741726 /* LMNDraft.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E38A224CE7D600741726 /* LMNDraft.m */; };
+		F001E3A9224CE7D600741726 /* NSTextAttachment+LMNStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E390224CE7D600741726 /* NSTextAttachment+LMNStore.m */; };
+		F001E3AA224CE7D600741726 /* UIImage+LMNStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E392224CE7D600741726 /* UIImage+LMNStore.m */; };
+		F001E3AB224CE7D600741726 /* LMNStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E393224CE7D600741726 /* LMNStore.m */; };
+		F001E3AE224CE80400741726 /* YYSCaseShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F001E3AC224CE80400741726 /* YYSCaseShareViewController.m */; };
 		F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E2CB224CC9F7005B5E8F /* MusicViewController.m */; };
 		F017E306224CD26B005B5E8F /* YYMCancalOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E305224CD26B005B5E8F /* YYMCancalOrderController.m */; };
 		F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E308224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m */; };
@@ -108,6 +133,57 @@
 		F001E354224CE28900741726 /* HHRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHRefreshHeader.m; sourceTree = "<group>"; };
 		F001E357224CE29F00741726 /* RefeshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefeshViewController.h; sourceTree = "<group>"; };
 		F001E358224CE29F00741726 /* RefeshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefeshViewController.m; sourceTree = "<group>"; };
+		F001E360224CE7D500741726 /* LMNTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNTextView.m; sourceTree = "<group>"; };
+		F001E361224CE7D500741726 /* UIFont+LMNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LMNote.m"; sourceTree = "<group>"; };
+		F001E362224CE7D500741726 /* LMNTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNTextStorage.m; sourceTree = "<group>"; };
+		F001E363224CE7D500741726 /* LMNTextStorage+Export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMNTextStorage+Export.h"; sourceTree = "<group>"; };
+		F001E364224CE7D500741726 /* LMNTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNTextView.h; sourceTree = "<group>"; };
+		F001E365224CE7D500741726 /* UIFont+LMNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LMNote.h"; sourceTree = "<group>"; };
+		F001E366224CE7D500741726 /* LMNTextStorage+Export.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMNTextStorage+Export.m"; sourceTree = "<group>"; };
+		F001E367224CE7D500741726 /* LMNTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNTextStorage.h; sourceTree = "<group>"; };
+		F001E369224CE7D500741726 /* LMNPhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNPhotoCollectionCell.m; sourceTree = "<group>"; };
+		F001E36A224CE7D500741726 /* LMNImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNImageView.m; sourceTree = "<group>"; };
+		F001E36B224CE7D500741726 /* LMNWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNWebViewController.h; sourceTree = "<group>"; };
+		F001E36C224CE7D600741726 /* LMNToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNToolBar.h; sourceTree = "<group>"; };
+		F001E36D224CE7D600741726 /* LMNImageInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNImageInputViewController.h; sourceTree = "<group>"; };
+		F001E36E224CE7D600741726 /* LMNImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNImageView.h; sourceTree = "<group>"; };
+		F001E36F224CE7D600741726 /* LMNPhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNPhotoCollectionCell.h; sourceTree = "<group>"; };
+		F001E370224CE7D600741726 /* LMNToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNToolBar.m; sourceTree = "<group>"; };
+		F001E371224CE7D600741726 /* LMNWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNWebViewController.m; sourceTree = "<group>"; };
+		F001E372224CE7D600741726 /* LMNImageInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNImageInputViewController.m; sourceTree = "<group>"; };
+		F001E374224CE7D600741726 /* LMNLineChain+Numbering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LMNLineChain+Numbering.m"; sourceTree = "<group>"; };
+		F001E375224CE7D600741726 /* LMNImageLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNImageLine.h; sourceTree = "<group>"; };
+		F001E376224CE7D600741726 /* LMNNumberingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNNumberingLine.h; sourceTree = "<group>"; };
+		F001E377224CE7D600741726 /* LMNBulletsLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNBulletsLine.h; sourceTree = "<group>"; };
+		F001E378224CE7D600741726 /* LMNLineModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNLineModes.h; sourceTree = "<group>"; };
+		F001E379224CE7D600741726 /* LMNTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNTextLine.h; sourceTree = "<group>"; };
+		F001E37A224CE7D600741726 /* LMNLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNLine.h; sourceTree = "<group>"; };
+		F001E37B224CE7D600741726 /* LMNCheckboxLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNCheckboxLine.h; sourceTree = "<group>"; };
+		F001E37C224CE7D600741726 /* LMNSpecialLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNSpecialLine.m; sourceTree = "<group>"; };
+		F001E37D224CE7D600741726 /* LMNLineChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNLineChain.m; sourceTree = "<group>"; };
+		F001E37E224CE7D600741726 /* LMNBulletsLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNBulletsLine.m; sourceTree = "<group>"; };
+		F001E37F224CE7D600741726 /* LMNNumberingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNNumberingLine.m; sourceTree = "<group>"; };
+		F001E380224CE7D600741726 /* LMNImageLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNImageLine.m; sourceTree = "<group>"; };
+		F001E381224CE7D600741726 /* LMNLineChain+Numbering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LMNLineChain+Numbering.h"; sourceTree = "<group>"; };
+		F001E382224CE7D600741726 /* LMNLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNLine.m; sourceTree = "<group>"; };
+		F001E383224CE7D600741726 /* LMNTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNTextLine.m; sourceTree = "<group>"; };
+		F001E384224CE7D600741726 /* LMNLineChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNLineChain.h; sourceTree = "<group>"; };
+		F001E385224CE7D600741726 /* LMNCheckboxLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNCheckboxLine.m; sourceTree = "<group>"; };
+		F001E386224CE7D600741726 /* LMNSpecialLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNSpecialLine.h; sourceTree = "<group>"; };
+		F001E388224CE7D600741726 /* LMNItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNItem.m; sourceTree = "<group>"; };
+		F001E389224CE7D600741726 /* LMNFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNFolder.m; sourceTree = "<group>"; };
+		F001E38A224CE7D600741726 /* LMNDraft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNDraft.m; sourceTree = "<group>"; };
+		F001E38B224CE7D600741726 /* NSTextAttachment+LMNStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextAttachment+LMNStore.h"; sourceTree = "<group>"; };
+		F001E38C224CE7D600741726 /* LMNStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNStore.h; sourceTree = "<group>"; };
+		F001E38D224CE7D600741726 /* UIImage+LMNStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LMNStore.h"; sourceTree = "<group>"; };
+		F001E38E224CE7D600741726 /* LMNFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNFolder.h; sourceTree = "<group>"; };
+		F001E38F224CE7D600741726 /* LMNItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNItem.h; sourceTree = "<group>"; };
+		F001E390224CE7D600741726 /* NSTextAttachment+LMNStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextAttachment+LMNStore.m"; sourceTree = "<group>"; };
+		F001E391224CE7D600741726 /* LMNDraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNDraft.h; sourceTree = "<group>"; };
+		F001E392224CE7D600741726 /* UIImage+LMNStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LMNStore.m"; sourceTree = "<group>"; };
+		F001E393224CE7D600741726 /* LMNStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNStore.m; sourceTree = "<group>"; };
+		F001E3AC224CE80400741726 /* YYSCaseShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSCaseShareViewController.m; sourceTree = "<group>"; };
+		F001E3AD224CE80400741726 /* YYSCaseShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSCaseShareViewController.h; sourceTree = "<group>"; };
 		F017E2CA224CC9F7005B5E8F /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		F017E2CB224CC9F7005B5E8F /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		F017E304224CD26B005B5E8F /* YYMCancalOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMCancalOrderController.h; sourceTree = "<group>"; };
@@ -278,6 +354,103 @@
 			path = RYRefresh;
 			sourceTree = "<group>";
 		};
+		F001E35A224CE78700741726 /* 富文本编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				F001E3AD224CE80400741726 /* YYSCaseShareViewController.h */,
+				F001E3AC224CE80400741726 /* YYSCaseShareViewController.m */,
+			);
+			path = "富文本编辑";
+			sourceTree = "<group>";
+		};
+		F001E35E224CE7D500741726 /* LMNote */ = {
+			isa = PBXGroup;
+			children = (
+				F001E35F224CE7D500741726 /* TextView */,
+				F001E368224CE7D500741726 /* OtherViews */,
+				F001E373224CE7D600741726 /* Lines */,
+				F001E387224CE7D600741726 /* Store */,
+			);
+			path = LMNote;
+			sourceTree = "<group>";
+		};
+		F001E35F224CE7D500741726 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				F001E360224CE7D500741726 /* LMNTextView.m */,
+				F001E361224CE7D500741726 /* UIFont+LMNote.m */,
+				F001E362224CE7D500741726 /* LMNTextStorage.m */,
+				F001E363224CE7D500741726 /* LMNTextStorage+Export.h */,
+				F001E364224CE7D500741726 /* LMNTextView.h */,
+				F001E365224CE7D500741726 /* UIFont+LMNote.h */,
+				F001E366224CE7D500741726 /* LMNTextStorage+Export.m */,
+				F001E367224CE7D500741726 /* LMNTextStorage.h */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		F001E368224CE7D500741726 /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				F001E369224CE7D500741726 /* LMNPhotoCollectionCell.m */,
+				F001E36A224CE7D500741726 /* LMNImageView.m */,
+				F001E36B224CE7D500741726 /* LMNWebViewController.h */,
+				F001E36C224CE7D600741726 /* LMNToolBar.h */,
+				F001E36D224CE7D600741726 /* LMNImageInputViewController.h */,
+				F001E36E224CE7D600741726 /* LMNImageView.h */,
+				F001E36F224CE7D600741726 /* LMNPhotoCollectionCell.h */,
+				F001E370224CE7D600741726 /* LMNToolBar.m */,
+				F001E371224CE7D600741726 /* LMNWebViewController.m */,
+				F001E372224CE7D600741726 /* LMNImageInputViewController.m */,
+			);
+			path = OtherViews;
+			sourceTree = "<group>";
+		};
+		F001E373224CE7D600741726 /* Lines */ = {
+			isa = PBXGroup;
+			children = (
+				F001E374224CE7D600741726 /* LMNLineChain+Numbering.m */,
+				F001E375224CE7D600741726 /* LMNImageLine.h */,
+				F001E376224CE7D600741726 /* LMNNumberingLine.h */,
+				F001E377224CE7D600741726 /* LMNBulletsLine.h */,
+				F001E378224CE7D600741726 /* LMNLineModes.h */,
+				F001E379224CE7D600741726 /* LMNTextLine.h */,
+				F001E37A224CE7D600741726 /* LMNLine.h */,
+				F001E37B224CE7D600741726 /* LMNCheckboxLine.h */,
+				F001E37C224CE7D600741726 /* LMNSpecialLine.m */,
+				F001E37D224CE7D600741726 /* LMNLineChain.m */,
+				F001E37E224CE7D600741726 /* LMNBulletsLine.m */,
+				F001E37F224CE7D600741726 /* LMNNumberingLine.m */,
+				F001E380224CE7D600741726 /* LMNImageLine.m */,
+				F001E381224CE7D600741726 /* LMNLineChain+Numbering.h */,
+				F001E382224CE7D600741726 /* LMNLine.m */,
+				F001E383224CE7D600741726 /* LMNTextLine.m */,
+				F001E384224CE7D600741726 /* LMNLineChain.h */,
+				F001E385224CE7D600741726 /* LMNCheckboxLine.m */,
+				F001E386224CE7D600741726 /* LMNSpecialLine.h */,
+			);
+			path = Lines;
+			sourceTree = "<group>";
+		};
+		F001E387224CE7D600741726 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F001E388224CE7D600741726 /* LMNItem.m */,
+				F001E389224CE7D600741726 /* LMNFolder.m */,
+				F001E38A224CE7D600741726 /* LMNDraft.m */,
+				F001E38B224CE7D600741726 /* NSTextAttachment+LMNStore.h */,
+				F001E38C224CE7D600741726 /* LMNStore.h */,
+				F001E38D224CE7D600741726 /* UIImage+LMNStore.h */,
+				F001E38E224CE7D600741726 /* LMNFolder.h */,
+				F001E38F224CE7D600741726 /* LMNItem.h */,
+				F001E390224CE7D600741726 /* NSTextAttachment+LMNStore.m */,
+				F001E391224CE7D600741726 /* LMNDraft.h */,
+				F001E392224CE7D600741726 /* UIImage+LMNStore.m */,
+				F001E393224CE7D600741726 /* LMNStore.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		F017E2C9224CC9EB005B5E8F /* 图片查看器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +581,7 @@
 				F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */,
 				F017E2C9224CC9EB005B5E8F /* 图片查看器 */,
 				F017E303224CD26B005B5E8F /* 弹出选择框 */,
+				F001E35A224CE78700741726 /* 富文本编辑 */,
 				F001E34F224CE28900741726 /* 刷新工具 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
@@ -553,6 +727,7 @@
 		F01B88B5224CC068004E7DEA /* ThirdTool */ = {
 			isa = PBXGroup;
 			children = (
+				F001E35E224CE7D500741726 /* LMNote */,
 				F001E33C224CE13300741726 /* ZWPhotoPreview */,
 				F01B88B6224CC072004E7DEA /* ZSImagePickerView */,
 				F01B88CB224CC2A2004E7DEA /* ZQPlayer */,
@@ -877,31 +1052,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01B88ED224CC6F5004E7DEA /* SGRecordProgressView.m in Sources */,
+				F001E39B224CE7D600741726 /* LMNWebViewController.m in Sources */,
 				F001E359224CE29F00741726 /* RefeshViewController.m in Sources */,
 				F001E356224CE28900741726 /* HHRefreshHeader.m in Sources */,
 				F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */,
+				F001E3A0224CE7D600741726 /* LMNBulletsLine.m in Sources */,
 				F01B88EA224CC6F5004E7DEA /* SGRecordEncoder.m in Sources */,
+				F001E3A3224CE7D600741726 /* LMNLine.m in Sources */,
 				F01B88C5224CC072004E7DEA /* ZSImagePickView.m in Sources */,
 				F001E34B224CE13300741726 /* ZWPhotoPreviewCell.m in Sources */,
 				F01B88E9224CC6F5004E7DEA /* SGMotionManager.m in Sources */,
+				F001E3A9224CE7D600741726 /* NSTextAttachment+LMNStore.m in Sources */,
 				F001E355224CE28900741726 /* HHRefreshFooter.m in Sources */,
 				F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */,
 				F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */,
+				F001E3AB224CE7D600741726 /* LMNStore.m in Sources */,
 				F001E34D224CE13300741726 /* ZWPhotoPreviewConfig.m in Sources */,
+				F001E399224CE7D600741726 /* LMNImageView.m in Sources */,
+				F001E397224CE7D600741726 /* LMNTextStorage+Export.m in Sources */,
 				F001E34C224CE13300741726 /* ZWPhotoPreview.m in Sources */,
 				F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */,
 				F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */,
+				F001E394224CE7D600741726 /* LMNTextView.m in Sources */,
 				F01B88EC224CC6F5004E7DEA /* SGRecordManager.m in Sources */,
 				F01B8896224CB9A6004E7DEA /* YYMBaseViewController.m in Sources */,
+				F001E396224CE7D600741726 /* LMNTextStorage.m in Sources */,
 				F01B88EE224CC6F5004E7DEA /* SGRecordViewController.m in Sources */,
 				F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */,
 				F001E34E224CE13300741726 /* ZWPhotoPreviewDataModel.m in Sources */,
 				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
 				F017E306224CD26B005B5E8F /* YYMCancalOrderController.m in Sources */,
 				F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */,
+				F001E3A7224CE7D600741726 /* LMNFolder.m in Sources */,
 				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
 				F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */,
+				F001E39A224CE7D600741726 /* LMNToolBar.m in Sources */,
+				F001E39D224CE7D600741726 /* LMNLineChain+Numbering.m in Sources */,
 				F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */,
+				F001E39F224CE7D600741726 /* LMNLineChain.m in Sources */,
+				F001E3A8224CE7D600741726 /* LMNDraft.m in Sources */,
+				F001E395224CE7D600741726 /* UIFont+LMNote.m in Sources */,
+				F001E39C224CE7D600741726 /* LMNImageInputViewController.m in Sources */,
 				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
 				F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */,
 				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
@@ -910,15 +1101,24 @@
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
 				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
 				F001E349224CE13300741726 /* ZWPagePickerView.m in Sources */,
+				F001E3A6224CE7D600741726 /* LMNItem.m in Sources */,
 				F01B88D9224CC5ED004E7DEA /* ShotViedoViewController.m in Sources */,
 				F01B88CA224CC233004E7DEA /* SUViedoViewController.m in Sources */,
 				F01B88C3224CC072004E7DEA /* FLAnimatedImage.m in Sources */,
 				F01B88EF224CC6F5004E7DEA /* SGRecordSuccessPreview.m in Sources */,
 				F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */,
 				F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */,
+				F001E3AE224CE80400741726 /* YYSCaseShareViewController.m in Sources */,
+				F001E3AA224CE7D600741726 /* UIImage+LMNStore.m in Sources */,
 				F001E34A224CE13300741726 /* ZWPhotoAskSaveView.m in Sources */,
 				F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */,
 				F01B88C6224CC072004E7DEA /* LxGridViewFlowLayout.m in Sources */,
+				F001E3A5224CE7D600741726 /* LMNCheckboxLine.m in Sources */,
+				F001E3A2224CE7D600741726 /* LMNImageLine.m in Sources */,
+				F001E3A1224CE7D600741726 /* LMNNumberingLine.m in Sources */,
+				F001E39E224CE7D600741726 /* LMNSpecialLine.m in Sources */,
+				F001E398224CE7D600741726 /* LMNPhotoCollectionCell.m in Sources */,
+				F001E3A4224CE7D600741726 /* LMNTextLine.m in Sources */,
 				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
 				F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */,
 				F01B88EB224CC6F5004E7DEA /* UIButton+Convenience.m in Sources */,
