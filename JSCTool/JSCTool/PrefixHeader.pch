@@ -18,6 +18,9 @@
 #import "BlocksKit+UIKit.h"
 #import "UIImageView+WebCache.h"
 
+/*----------------颜色------------------------------------------------*/
+#define RGBCOLOR(r, g, b)                       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define RGBACOLOR(r, g, b, a)                   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
 //分割线颜色
 #define SeparatorCOLOR                          [UIColor getColorWithHexString:@"#dddddd"]

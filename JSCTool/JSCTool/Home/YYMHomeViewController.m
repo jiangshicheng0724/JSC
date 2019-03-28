@@ -11,6 +11,7 @@
 #import "PhotoViewController.h"
 #import "SUViedoViewController.h"
 #import "ShotViedoViewController.h"
+#import "MusicViewController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -34,7 +35,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"语言录制"];
     
 }
 
@@ -100,7 +101,9 @@
     }else if(indexPath.row == 3){
         ShotViedoViewController *vc = [[ShotViedoViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
-        
+    }else if (indexPath.row == 4){
+        MusicViewController *vc = [[MusicViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 

@@ -10,6 +10,7 @@
 		17C95FA6998CACC005E81F5A /* Pods_JSCToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDEAC14BC9480C71850783A /* Pods_JSCToolUITests.framework */; };
 		2465AEEFF904D8227FAB6256 /* Pods_JSCToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504A897C7EA6A59FCA7E0D5E /* Pods_JSCToolTests.framework */; };
 		AF509A56EF65899B747484CC /* Pods_JSCTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EDDDD4510FE6EB9EB7A349 /* Pods_JSCTool.framework */; };
+		F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E2CB224CC9F7005B5E8F /* MusicViewController.m */; };
 		F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8803224CAFE2004E7DEA /* AppDelegate.m */; };
 		F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8806224CAFE2004E7DEA /* ViewController.m */; };
 		F01B880A224CAFE2004E7DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01B8808224CAFE2004E7DEA /* Main.storyboard */; };
@@ -78,6 +79,8 @@
 		6EDEAC14BC9480C71850783A /* Pods_JSCToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2B186100EF43C58F7B257A /* Pods-JSCToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.debug.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7EDDDD4510FE6EB9EB7A349 /* Pods_JSCTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F017E2CA224CC9F7005B5E8F /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		F017E2CB224CC9F7005B5E8F /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		F01B87FF224CAFE2004E7DEA /* JSCTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01B8802224CAFE2004E7DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01B8803224CAFE2004E7DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -201,6 +204,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F017E2C9224CC9EB005B5E8F /* 语音录制 */ = {
+			isa = PBXGroup;
+			children = (
+				F017E2CA224CC9F7005B5E8F /* MusicViewController.h */,
+				F017E2CB224CC9F7005B5E8F /* MusicViewController.m */,
+			);
+			path = "语音录制";
+			sourceTree = "<group>";
+		};
 		F01B87F6224CAFE2004E7DEA = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +321,7 @@
 				F01B88C7224CC210004E7DEA /* 视频播放 */,
 				F01B88AD224CBD31004E7DEA /* 广告图 */,
 				F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */,
+				F017E2C9224CC9EB005B5E8F /* 语音录制 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
@@ -791,6 +804,7 @@
 				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
 				F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */,
 				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
+				F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */,
 				F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */,
 				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
 				F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */,
@@ -988,6 +1002,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSCTool/ThirdTool/Class/Vendor/AMR/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsc.JSCTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1006,6 +1024,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSCTool/ThirdTool/Class/Vendor/AMR/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jsc.JSCTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
