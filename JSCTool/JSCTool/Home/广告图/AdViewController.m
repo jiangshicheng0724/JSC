@@ -50,7 +50,7 @@
 //        _cycleScrollView.pageControlDotSize = CGSizeMake(15, 6);
         [self.view addSubview:_cycleScrollView];
         [_cycleScrollView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.mas_equalTo(50);
+            make.top.mas_equalTo(70);
             make.left.mas_equalTo(15);
             make.right.mas_equalTo(-15);
             make.height.mas_equalTo(200);
