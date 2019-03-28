@@ -42,6 +42,15 @@
 		F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88CF224CC2A2004E7DEA /* ZQPlayer.m */; };
 		F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88D0224CC2A2004E7DEA /* ZQPlayerMaskView.m */; };
 		F01B88D5224CC2A2004E7DEA /* music.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01B88D1224CC2A2004E7DEA /* music.gif */; };
+		F01B88D9224CC5ED004E7DEA /* ShotViedoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88D8224CC5ED004E7DEA /* ShotViedoViewController.m */; };
+		F01B88E9224CC6F5004E7DEA /* SGMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88DC224CC6F5004E7DEA /* SGMotionManager.m */; };
+		F01B88EA224CC6F5004E7DEA /* SGRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88DF224CC6F5004E7DEA /* SGRecordEncoder.m */; };
+		F01B88EB224CC6F5004E7DEA /* UIButton+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E2224CC6F5004E7DEA /* UIButton+Convenience.m */; };
+		F01B88EC224CC6F5004E7DEA /* SGRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E3224CC6F5004E7DEA /* SGRecordManager.m */; };
+		F01B88ED224CC6F5004E7DEA /* SGRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E5224CC6F5004E7DEA /* SGRecordProgressView.m */; };
+		F01B88EE224CC6F5004E7DEA /* SGRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E6224CC6F5004E7DEA /* SGRecordViewController.m */; };
+		F01B88EF224CC6F5004E7DEA /* SGRecordSuccessPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E8224CC6F5004E7DEA /* SGRecordSuccessPreview.m */; };
+		F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88F1224CC7B7004E7DEA /* ViedoPlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +141,24 @@
 		F01B88CF224CC2A2004E7DEA /* ZQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQPlayer.m; sourceTree = "<group>"; };
 		F01B88D0224CC2A2004E7DEA /* ZQPlayerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQPlayerMaskView.m; sourceTree = "<group>"; };
 		F01B88D1224CC2A2004E7DEA /* music.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = music.gif; sourceTree = "<group>"; };
+		F01B88D7224CC5ED004E7DEA /* ShotViedoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotViedoViewController.h; sourceTree = "<group>"; };
+		F01B88D8224CC5ED004E7DEA /* ShotViedoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotViedoViewController.m; sourceTree = "<group>"; };
+		F01B88DB224CC6F5004E7DEA /* UIButton+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Convenience.h"; sourceTree = "<group>"; };
+		F01B88DC224CC6F5004E7DEA /* SGMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMotionManager.m; sourceTree = "<group>"; };
+		F01B88DD224CC6F5004E7DEA /* SGRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordProgressView.h; sourceTree = "<group>"; };
+		F01B88DE224CC6F5004E7DEA /* SGRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordManager.h; sourceTree = "<group>"; };
+		F01B88DF224CC6F5004E7DEA /* SGRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordEncoder.m; sourceTree = "<group>"; };
+		F01B88E0224CC6F5004E7DEA /* SGRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordViewController.h; sourceTree = "<group>"; };
+		F01B88E1224CC6F5004E7DEA /* SGRecordSuccessPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordSuccessPreview.h; sourceTree = "<group>"; };
+		F01B88E2224CC6F5004E7DEA /* UIButton+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Convenience.m"; sourceTree = "<group>"; };
+		F01B88E3224CC6F5004E7DEA /* SGRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordManager.m; sourceTree = "<group>"; };
+		F01B88E4224CC6F5004E7DEA /* SGMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMotionManager.h; sourceTree = "<group>"; };
+		F01B88E5224CC6F5004E7DEA /* SGRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordProgressView.m; sourceTree = "<group>"; };
+		F01B88E6224CC6F5004E7DEA /* SGRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordViewController.m; sourceTree = "<group>"; };
+		F01B88E7224CC6F5004E7DEA /* SGRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGRecordEncoder.h; sourceTree = "<group>"; };
+		F01B88E8224CC6F5004E7DEA /* SGRecordSuccessPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordSuccessPreview.m; sourceTree = "<group>"; };
+		F01B88F0224CC7B7004E7DEA /* ViedoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViedoPlayViewController.h; sourceTree = "<group>"; };
+		F01B88F1224CC7B7004E7DEA /* ViedoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViedoPlayViewController.m; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,6 +243,7 @@
 				F01B88A6224CBAAE004E7DEA /* Mine */,
 				F01B889E224CBA58004E7DEA /* ShopCar */,
 				F01B88B5224CC068004E7DEA /* ThirdTool */,
+				F01B88DA224CC6F5004E7DEA /* SGRecord */,
 			);
 			path = JSCTool;
 			sourceTree = "<group>";
@@ -280,6 +308,7 @@
 			children = (
 				F01B88C7224CC210004E7DEA /* 视频播放 */,
 				F01B88AD224CBD31004E7DEA /* 广告图 */,
+				F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
@@ -476,6 +505,39 @@
 				F01B88D1224CC2A2004E7DEA /* music.gif */,
 			);
 			path = ZQPlayer;
+			sourceTree = "<group>";
+		};
+		F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88D7224CC5ED004E7DEA /* ShotViedoViewController.h */,
+				F01B88D8224CC5ED004E7DEA /* ShotViedoViewController.m */,
+				F01B88F0224CC7B7004E7DEA /* ViedoPlayViewController.h */,
+				F01B88F1224CC7B7004E7DEA /* ViedoPlayViewController.m */,
+			);
+			path = "拍摄小视频";
+			sourceTree = "<group>";
+		};
+		F01B88DA224CC6F5004E7DEA /* SGRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F01B88DB224CC6F5004E7DEA /* UIButton+Convenience.h */,
+				F01B88DC224CC6F5004E7DEA /* SGMotionManager.m */,
+				F01B88DD224CC6F5004E7DEA /* SGRecordProgressView.h */,
+				F01B88DE224CC6F5004E7DEA /* SGRecordManager.h */,
+				F01B88DF224CC6F5004E7DEA /* SGRecordEncoder.m */,
+				F01B88E0224CC6F5004E7DEA /* SGRecordViewController.h */,
+				F01B88E1224CC6F5004E7DEA /* SGRecordSuccessPreview.h */,
+				F01B88E2224CC6F5004E7DEA /* UIButton+Convenience.m */,
+				F01B88E3224CC6F5004E7DEA /* SGRecordManager.m */,
+				F01B88E4224CC6F5004E7DEA /* SGMotionManager.h */,
+				F01B88E5224CC6F5004E7DEA /* SGRecordProgressView.m */,
+				F01B88E6224CC6F5004E7DEA /* SGRecordViewController.m */,
+				F01B88E7224CC6F5004E7DEA /* SGRecordEncoder.h */,
+				F01B88E8224CC6F5004E7DEA /* SGRecordSuccessPreview.m */,
+			);
+			name = SGRecord;
+			path = ThirdTool/SGRecord;
 			sourceTree = "<group>";
 		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
@@ -713,31 +775,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01B88ED224CC6F5004E7DEA /* SGRecordProgressView.m in Sources */,
 				F01B888D224CB8EB004E7DEA /* WZTabBar.m in Sources */,
+				F01B88EA224CC6F5004E7DEA /* SGRecordEncoder.m in Sources */,
 				F01B88C5224CC072004E7DEA /* ZSImagePickView.m in Sources */,
+				F01B88E9224CC6F5004E7DEA /* SGMotionManager.m in Sources */,
 				F01B88B0224CBD44004E7DEA /* AdViewController.m in Sources */,
 				F01B888B224CB8EB004E7DEA /* WZTabBarController.m in Sources */,
 				F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */,
 				F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */,
+				F01B88EC224CC6F5004E7DEA /* SGRecordManager.m in Sources */,
 				F01B8896224CB9A6004E7DEA /* YYMBaseViewController.m in Sources */,
+				F01B88EE224CC6F5004E7DEA /* SGRecordViewController.m in Sources */,
 				F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */,
 				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
 				F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */,
 				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
 				F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */,
 				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
+				F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */,
 				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
 				F01B88C2224CC072004E7DEA /* TZTestCell.m in Sources */,
 				F01B8812224CAFE5004E7DEA /* main.m in Sources */,
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
 				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
+				F01B88D9224CC5ED004E7DEA /* ShotViedoViewController.m in Sources */,
 				F01B88CA224CC233004E7DEA /* SUViedoViewController.m in Sources */,
 				F01B88C3224CC072004E7DEA /* FLAnimatedImage.m in Sources */,
+				F01B88EF224CC6F5004E7DEA /* SGRecordSuccessPreview.m in Sources */,
 				F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */,
 				F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */,
 				F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */,
 				F01B88C6224CC072004E7DEA /* LxGridViewFlowLayout.m in Sources */,
 				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
+				F01B88EB224CC6F5004E7DEA /* UIButton+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,6 +981,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
 				GCC_PREFIX_HEADER = JSCTool/PrefixHeader.pch;
 				INFOPLIST_FILE = JSCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -928,6 +1000,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MZFMA6Y84;
 				GCC_PREFIX_HEADER = JSCTool/PrefixHeader.pch;
 				INFOPLIST_FILE = JSCTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

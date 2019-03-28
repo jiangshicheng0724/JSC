@@ -10,6 +10,7 @@
 #import "AdViewController.h"
 #import "PhotoViewController.h"
 #import "SUViedoViewController.h"
+#import "ShotViedoViewController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -33,7 +34,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频"];
     
 }
 
@@ -96,6 +97,10 @@
     }else if(indexPath.row == 2){
         SUViedoViewController *vc = [[SUViedoViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if(indexPath.row == 3){
+        ShotViedoViewController *vc = [[ShotViedoViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
     }
 }
 
