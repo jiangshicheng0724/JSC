@@ -11,6 +11,8 @@
 		2465AEEFF904D8227FAB6256 /* Pods_JSCToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504A897C7EA6A59FCA7E0D5E /* Pods_JSCToolTests.framework */; };
 		AF509A56EF65899B747484CC /* Pods_JSCTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EDDDD4510FE6EB9EB7A349 /* Pods_JSCTool.framework */; };
 		F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E2CB224CC9F7005B5E8F /* MusicViewController.m */; };
+		F017E306224CD26B005B5E8F /* YYMCancalOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E305224CD26B005B5E8F /* YYMCancalOrderController.m */; };
+		F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F017E308224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m */; };
 		F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8803224CAFE2004E7DEA /* AppDelegate.m */; };
 		F01B8807224CAFE2004E7DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B8806224CAFE2004E7DEA /* ViewController.m */; };
 		F01B880A224CAFE2004E7DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01B8808224CAFE2004E7DEA /* Main.storyboard */; };
@@ -81,6 +83,10 @@
 		E7EDDDD4510FE6EB9EB7A349 /* Pods_JSCTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F017E2CA224CC9F7005B5E8F /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		F017E2CB224CC9F7005B5E8F /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		F017E304224CD26B005B5E8F /* YYMCancalOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMCancalOrderController.h; sourceTree = "<group>"; };
+		F017E305224CD26B005B5E8F /* YYMCancalOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMCancalOrderController.m; sourceTree = "<group>"; };
+		F017E307224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMCancalOrderTableViewCell.h; sourceTree = "<group>"; };
+		F017E308224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMCancalOrderTableViewCell.m; sourceTree = "<group>"; };
 		F01B87FF224CAFE2004E7DEA /* JSCTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01B8802224CAFE2004E7DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F01B8803224CAFE2004E7DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -213,6 +219,17 @@
 			path = "语音录制";
 			sourceTree = "<group>";
 		};
+		F017E303224CD26B005B5E8F /* 弹出选择框 */ = {
+			isa = PBXGroup;
+			children = (
+				F017E304224CD26B005B5E8F /* YYMCancalOrderController.h */,
+				F017E305224CD26B005B5E8F /* YYMCancalOrderController.m */,
+				F017E307224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.h */,
+				F017E308224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m */,
+			);
+			path = "弹出选择框";
+			sourceTree = "<group>";
+		};
 		F01B87F6224CAFE2004E7DEA = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +339,7 @@
 				F01B88AD224CBD31004E7DEA /* 广告图 */,
 				F01B88D6224CC5DB004E7DEA /* 拍摄小视频 */,
 				F017E2C9224CC9EB005B5E8F /* 语音录制 */,
+				F017E303224CD26B005B5E8F /* 弹出选择框 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
@@ -802,6 +820,7 @@
 				F01B88EE224CC6F5004E7DEA /* SGRecordViewController.m in Sources */,
 				F01B889D224CBA1B004E7DEA /* YYMClassifyViewController.m in Sources */,
 				F01B888E224CB8EB004E7DEA /* WZBackView.m in Sources */,
+				F017E306224CD26B005B5E8F /* YYMCancalOrderController.m in Sources */,
 				F01B88C4224CC072004E7DEA /* FLAnimatedImageView.m in Sources */,
 				F01B88AC224CBAAE004E7DEA /* YYMMineViewController.m in Sources */,
 				F017E2CC224CC9F7005B5E8F /* MusicViewController.m in Sources */,
@@ -822,6 +841,7 @@
 				F01B88D4224CC2A2004E7DEA /* ZQPlayerMaskView.m in Sources */,
 				F01B88C6224CC072004E7DEA /* LxGridViewFlowLayout.m in Sources */,
 				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
+				F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */,
 				F01B88EB224CC6F5004E7DEA /* UIButton+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

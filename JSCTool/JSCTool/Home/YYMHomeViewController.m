@@ -12,6 +12,7 @@
 #import "SUViedoViewController.h"
 #import "ShotViedoViewController.h"
 #import "MusicViewController.h"
+#import "YYMCancalOrderController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -35,7 +36,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"语言录制"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"语言录制",@"弹出选择框"];
     
 }
 
@@ -104,6 +105,11 @@
     }else if (indexPath.row == 4){
         MusicViewController *vc = [[MusicViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 5){
+        YYMCancalOrderController *vc = [[YYMCancalOrderController alloc] init];
+        vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+        vc.cancalText = @[@"不喜欢/不想要",@"商品买错（颜色、尺寸等选错）",@"未按约定时间发货",@"缺货",@"地址写错",@"其他原因"];
+        [self presentViewController:vc animated:YES completion:nil];
     }
 }
 
