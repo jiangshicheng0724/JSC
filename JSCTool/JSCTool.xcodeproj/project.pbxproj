@@ -88,6 +88,10 @@
 		F01B88EE224CC6F5004E7DEA /* SGRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E6224CC6F5004E7DEA /* SGRecordViewController.m */; };
 		F01B88EF224CC6F5004E7DEA /* SGRecordSuccessPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88E8224CC6F5004E7DEA /* SGRecordSuccessPreview.m */; };
 		F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01B88F1224CC7B7004E7DEA /* ViedoPlayViewController.m */; };
+		F0B818B122700451006F1399 /* MVVMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B022700451006F1399 /* MVVMTextViewController.m */; };
+		F0B818B422702EDE006F1399 /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B322702EDE006F1399 /* MVVMModel.m */; };
+		F0B818B722702F4E006F1399 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B622702F4E006F1399 /* MVVMViewModel.m */; };
+		F0B818BA227030A7006F1399 /* MVVMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,6 +275,14 @@
 		F01B88E8224CC6F5004E7DEA /* SGRecordSuccessPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGRecordSuccessPreview.m; sourceTree = "<group>"; };
 		F01B88F0224CC7B7004E7DEA /* ViedoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViedoPlayViewController.h; sourceTree = "<group>"; };
 		F01B88F1224CC7B7004E7DEA /* ViedoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViedoPlayViewController.m; sourceTree = "<group>"; };
+		F0B818AF22700451006F1399 /* MVVMTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMTextViewController.h; sourceTree = "<group>"; };
+		F0B818B022700451006F1399 /* MVVMTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTextViewController.m; sourceTree = "<group>"; };
+		F0B818B222702EDE006F1399 /* MVVMModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMModel.h; sourceTree = "<group>"; };
+		F0B818B322702EDE006F1399 /* MVVMModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModel.m; sourceTree = "<group>"; };
+		F0B818B522702F4E006F1399 /* MVVMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewModel.h; sourceTree = "<group>"; };
+		F0B818B622702F4E006F1399 /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
+		F0B818B8227030A7006F1399 /* MVVMTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMTableViewCell.h; sourceTree = "<group>"; };
+		F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTableViewCell.m; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -584,6 +596,7 @@
 				F001E35A224CE78700741726 /* 富文本编辑 */,
 				F001E34F224CE28900741726 /* 刷新工具 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
+				F0B818AE22700422006F1399 /* MVVM */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
 			);
@@ -814,6 +827,21 @@
 			);
 			name = SGRecord;
 			path = ThirdTool/SGRecord;
+			sourceTree = "<group>";
+		};
+		F0B818AE22700422006F1399 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				F0B818AF22700451006F1399 /* MVVMTextViewController.h */,
+				F0B818B022700451006F1399 /* MVVMTextViewController.m */,
+				F0B818B222702EDE006F1399 /* MVVMModel.h */,
+				F0B818B322702EDE006F1399 /* MVVMModel.m */,
+				F0B818B522702F4E006F1399 /* MVVMViewModel.h */,
+				F0B818B622702F4E006F1399 /* MVVMViewModel.m */,
+				F0B818B8227030A7006F1399 /* MVVMTableViewCell.h */,
+				F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
@@ -1069,9 +1097,11 @@
 				F001E3AB224CE7D600741726 /* LMNStore.m in Sources */,
 				F001E34D224CE13300741726 /* ZWPhotoPreviewConfig.m in Sources */,
 				F001E399224CE7D600741726 /* LMNImageView.m in Sources */,
+				F0B818BA227030A7006F1399 /* MVVMTableViewCell.m in Sources */,
 				F001E397224CE7D600741726 /* LMNTextStorage+Export.m in Sources */,
 				F001E34C224CE13300741726 /* ZWPhotoPreview.m in Sources */,
 				F01B8892224CB968004E7DEA /* YYMHomeViewController.m in Sources */,
+				F0B818B122700451006F1399 /* MVVMTextViewController.m in Sources */,
 				F01B88D3224CC2A2004E7DEA /* ZQPlayer.m in Sources */,
 				F001E394224CE7D600741726 /* LMNTextView.m in Sources */,
 				F01B88EC224CC6F5004E7DEA /* SGRecordManager.m in Sources */,
@@ -1100,6 +1130,7 @@
 				F01B8812224CAFE5004E7DEA /* main.m in Sources */,
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
 				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
+				F0B818B722702F4E006F1399 /* MVVMViewModel.m in Sources */,
 				F001E349224CE13300741726 /* ZWPagePickerView.m in Sources */,
 				F001E3A6224CE7D600741726 /* LMNItem.m in Sources */,
 				F01B88D9224CC5ED004E7DEA /* ShotViedoViewController.m in Sources */,
@@ -1108,6 +1139,7 @@
 				F01B88EF224CC6F5004E7DEA /* SGRecordSuccessPreview.m in Sources */,
 				F01B8889224CB8EB004E7DEA /* RYNavigationViewController.m in Sources */,
 				F01B8888224CB8EB004E7DEA /* WZNavigationViewController.m in Sources */,
+				F0B818B422702EDE006F1399 /* MVVMModel.m in Sources */,
 				F001E3AE224CE80400741726 /* YYSCaseShareViewController.m in Sources */,
 				F001E3AA224CE7D600741726 /* UIImage+LMNStore.m in Sources */,
 				F001E34A224CE13300741726 /* ZWPhotoAskSaveView.m in Sources */,

@@ -15,6 +15,7 @@
 #import "YYMCancalOrderController.h"
 #import "RefeshViewController.h"
 #import "YYSCaseShareViewController.h"
+#import "MVVMTextViewController.h"
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -38,7 +39,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框",@"刷新工具",@"富文本编辑"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框",@"刷新工具",@"富文本编辑",@"MVVM"];
     
 }
 
@@ -119,6 +120,9 @@
 //        YYSCaseShareViewController *vc = [[YYSCaseShareViewController alloc] init];
 //        [self.navigationController pushViewController:vc animated:YES];
         [self.view showToastWithText:@"暂未完工" afterDelay:0];
+    }else if (indexPath.row == 8){
+        MVVMTextViewController *vc = [[MVVMTextViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
     
 }
