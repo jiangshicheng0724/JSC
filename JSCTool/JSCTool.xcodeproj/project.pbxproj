@@ -92,6 +92,7 @@
 		F0B818B422702EDE006F1399 /* MVVMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B322702EDE006F1399 /* MVVMModel.m */; };
 		F0B818B722702F4E006F1399 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B622702F4E006F1399 /* MVVMViewModel.m */; };
 		F0B818BA227030A7006F1399 /* MVVMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */; };
+		F0BA42EC2271C4D500E1DEA5 /* ViewEchartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42EB2271C4D500E1DEA5 /* ViewEchartsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -283,6 +284,8 @@
 		F0B818B622702F4E006F1399 /* MVVMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewModel.m; sourceTree = "<group>"; };
 		F0B818B8227030A7006F1399 /* MVVMTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMTableViewCell.h; sourceTree = "<group>"; };
 		F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTableViewCell.m; sourceTree = "<group>"; };
+		F0BA42EA2271C4D500E1DEA5 /* ViewEchartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewEchartsController.h; sourceTree = "<group>"; };
+		F0BA42EB2271C4D500E1DEA5 /* ViewEchartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewEchartsController.m; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -596,6 +599,7 @@
 				F001E35A224CE78700741726 /* 富文本编辑 */,
 				F001E34F224CE28900741726 /* 刷新工具 */,
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
+				F0BA42E92271C4BF00E1DEA5 /* Echarts */,
 				F0B818AE22700422006F1399 /* MVVM */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
@@ -842,6 +846,15 @@
 				F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		F0BA42E92271C4BF00E1DEA5 /* Echarts */ = {
+			isa = PBXGroup;
+			children = (
+				F0BA42EA2271C4D500E1DEA5 /* ViewEchartsController.h */,
+				F0BA42EB2271C4D500E1DEA5 /* ViewEchartsController.m */,
+			);
+			path = Echarts;
 			sourceTree = "<group>";
 		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
@@ -1126,6 +1139,7 @@
 				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
 				F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */,
 				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
+				F0BA42EC2271C4D500E1DEA5 /* ViewEchartsController.m in Sources */,
 				F01B88C2224CC072004E7DEA /* TZTestCell.m in Sources */,
 				F01B8812224CAFE5004E7DEA /* main.m in Sources */,
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,

@@ -29,6 +29,7 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - iOS-Echarts (1.4.4)
   - IQKeyboardManager (6.2.0)
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
@@ -46,6 +47,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - BlocksKit
+  - iOS-Echarts
   - IQKeyboardManager
   - Masonry
   - MJExtension
@@ -61,6 +63,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BlocksKit
+    - iOS-Echarts
     - IQKeyboardManager
     - Masonry
     - MJExtension
@@ -83,6 +86,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
@@ -94,6 +98,6 @@ SPEC CHECKSUMS:
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
   WZTool: 9de390c8a53100232d4f456498c90eceeb497f1b
 
-PODFILE CHECKSUM: e80a64fa374d68362af25262ebb790d52d0d3c2f
+PODFILE CHECKSUM: ff5ce3595bb15a6ac4948b24bbc7ae277e4d3140
 
 COCOAPODS: 1.7.0.beta.2
