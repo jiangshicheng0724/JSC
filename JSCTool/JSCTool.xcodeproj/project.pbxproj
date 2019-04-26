@@ -93,6 +93,10 @@
 		F0B818B722702F4E006F1399 /* MVVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B622702F4E006F1399 /* MVVMViewModel.m */; };
 		F0B818BA227030A7006F1399 /* MVVMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */; };
 		F0BA42EC2271C4D500E1DEA5 /* ViewEchartsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42EB2271C4D500E1DEA5 /* ViewEchartsController.m */; };
+		F0BA42F42273024000E1DEA5 /* TableCellModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42F32273024000E1DEA5 /* TableCellModelViewController.m */; };
+		F0BA42F9227302EC00E1DEA5 /* YYMAddNewBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42F5227302EC00E1DEA5 /* YYMAddNewBillView.m */; };
+		F0BA42FA227302EC00E1DEA5 /* YYMNewAddBillModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42F6227302EC00E1DEA5 /* YYMNewAddBillModel.m */; };
+		F0BA42FE227303C500E1DEA5 /* RYToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA42FC227303C500E1DEA5 /* RYToolClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +290,14 @@
 		F0B818B9227030A7006F1399 /* MVVMTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMTableViewCell.m; sourceTree = "<group>"; };
 		F0BA42EA2271C4D500E1DEA5 /* ViewEchartsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewEchartsController.h; sourceTree = "<group>"; };
 		F0BA42EB2271C4D500E1DEA5 /* ViewEchartsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewEchartsController.m; sourceTree = "<group>"; };
+		F0BA42F22273024000E1DEA5 /* TableCellModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellModelViewController.h; sourceTree = "<group>"; };
+		F0BA42F32273024000E1DEA5 /* TableCellModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellModelViewController.m; sourceTree = "<group>"; };
+		F0BA42F5227302EC00E1DEA5 /* YYMAddNewBillView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMAddNewBillView.m; sourceTree = "<group>"; };
+		F0BA42F6227302EC00E1DEA5 /* YYMNewAddBillModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMNewAddBillModel.m; sourceTree = "<group>"; };
+		F0BA42F7227302EC00E1DEA5 /* YYMAddNewBillView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMAddNewBillView.h; sourceTree = "<group>"; };
+		F0BA42F8227302EC00E1DEA5 /* YYMNewAddBillModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMNewAddBillModel.h; sourceTree = "<group>"; };
+		F0BA42FC227303C500E1DEA5 /* RYToolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYToolClass.m; sourceTree = "<group>"; };
+		F0BA42FD227303C500E1DEA5 /* RYToolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYToolClass.h; sourceTree = "<group>"; };
 		F5DAA625419DD7B3320ED197 /* Pods-JSCToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCToolTests.release.xcconfig"; path = "Target Support Files/Pods-JSCToolTests/Pods-JSCToolTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AD162BC8B53BDCA454E232 /* Pods-JSCTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCTool.release.xcconfig"; path = "Target Support Files/Pods-JSCTool/Pods-JSCTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -522,6 +534,7 @@
 				F01B8810224CAFE5004E7DEA /* Info.plist */,
 				F01B8811224CAFE5004E7DEA /* main.m */,
 				F01B8893224CB9A6004E7DEA /* Base */,
+				F0BA42FB227303C500E1DEA5 /* RYTool */,
 				F01B888F224CB924004E7DEA /* Home */,
 				F01B8877224CB8EB004E7DEA /* tabbar */,
 				F01B8897224CBA1B004E7DEA /* Classify */,
@@ -601,6 +614,7 @@
 				F01B88B1224CBFB6004E7DEA /* 照片选择器 */,
 				F0BA42E92271C4BF00E1DEA5 /* Echarts */,
 				F0B818AE22700422006F1399 /* MVVM */,
+				F0BA42F12273021D00E1DEA5 /* UITableViewCell中model传值 */,
 				F01B8891224CB968004E7DEA /* YYMHomeViewController.h */,
 				F01B8890224CB968004E7DEA /* YYMHomeViewController.m */,
 			);
@@ -857,6 +871,29 @@
 			path = Echarts;
 			sourceTree = "<group>";
 		};
+		F0BA42F12273021D00E1DEA5 /* UITableViewCell中model传值 */ = {
+			isa = PBXGroup;
+			children = (
+				F0BA42F22273024000E1DEA5 /* TableCellModelViewController.h */,
+				F0BA42F32273024000E1DEA5 /* TableCellModelViewController.m */,
+				F0BA42F7227302EC00E1DEA5 /* YYMAddNewBillView.h */,
+				F0BA42F5227302EC00E1DEA5 /* YYMAddNewBillView.m */,
+				F0BA42F8227302EC00E1DEA5 /* YYMNewAddBillModel.h */,
+				F0BA42F6227302EC00E1DEA5 /* YYMNewAddBillModel.m */,
+			);
+			name = "UITableViewCell中model传值";
+			path = "JSCTool/Home/UITableViewCell中model传值";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0BA42FB227303C500E1DEA5 /* RYTool */ = {
+			isa = PBXGroup;
+			children = (
+				F0BA42FC227303C500E1DEA5 /* RYToolClass.m */,
+				F0BA42FD227303C500E1DEA5 /* RYToolClass.h */,
+			);
+			path = RYTool;
+			sourceTree = "<group>";
+		};
 		FA19A787E04B5DD088AC799B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1092,6 +1129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BA42F9227302EC00E1DEA5 /* YYMAddNewBillView.m in Sources */,
 				F01B88ED224CC6F5004E7DEA /* SGRecordProgressView.m in Sources */,
 				F001E39B224CE7D600741726 /* LMNWebViewController.m in Sources */,
 				F001E359224CE29F00741726 /* RefeshViewController.m in Sources */,
@@ -1136,6 +1174,7 @@
 				F001E3A8224CE7D600741726 /* LMNDraft.m in Sources */,
 				F001E395224CE7D600741726 /* UIFont+LMNote.m in Sources */,
 				F001E39C224CE7D600741726 /* LMNImageInputViewController.m in Sources */,
+				F0BA42FA227302EC00E1DEA5 /* YYMNewAddBillModel.m in Sources */,
 				F01B88B4224CBFC4004E7DEA /* PhotoViewController.m in Sources */,
 				F01B88F2224CC7B7004E7DEA /* ViedoPlayViewController.m in Sources */,
 				F01B888C224CB8EB004E7DEA /* WZNavigationBar.m in Sources */,
@@ -1145,6 +1184,7 @@
 				F01B8804224CAFE2004E7DEA /* AppDelegate.m in Sources */,
 				F01B888A224CB8EB004E7DEA /* RYAnmationController.m in Sources */,
 				F0B818B722702F4E006F1399 /* MVVMViewModel.m in Sources */,
+				F0BA42FE227303C500E1DEA5 /* RYToolClass.m in Sources */,
 				F001E349224CE13300741726 /* ZWPagePickerView.m in Sources */,
 				F001E3A6224CE7D600741726 /* LMNItem.m in Sources */,
 				F01B88D9224CC5ED004E7DEA /* ShotViedoViewController.m in Sources */,
@@ -1167,6 +1207,7 @@
 				F001E3A4224CE7D600741726 /* LMNTextLine.m in Sources */,
 				F01B88A5224CBA58004E7DEA /* YYMShopCarViewController.m in Sources */,
 				F017E309224CD2A7005B5E8F /* YYMCancalOrderTableViewCell.m in Sources */,
+				F0BA42F42273024000E1DEA5 /* TableCellModelViewController.m in Sources */,
 				F01B88EB224CC6F5004E7DEA /* UIButton+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

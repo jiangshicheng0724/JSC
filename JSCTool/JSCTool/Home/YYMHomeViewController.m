@@ -17,6 +17,8 @@
 #import "YYSCaseShareViewController.h"
 #import "MVVMTextViewController.h"
 #import "ViewEchartsController.h"
+#import "TableCellModelViewController.h"
+
 
 @interface YYMHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**  tableView */
@@ -40,7 +42,7 @@
     self.tableView.separatorColor = TableColor;
     self.tableView.backgroundColor = TableColor;
     
-    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框",@"刷新工具",@"富文本编辑",@"MVVM",@"Echarts"];
+    self.arrTitle = @[@"广告轮播图",@"照片选择器",@"视频播放",@"拍摄小视频",@"图片查看器",@"弹出选择框",@"刷新工具",@"富文本编辑",@"MVVM",@"Echarts",@"UITableViewCell中model传值"];
     
 }
 
@@ -124,8 +126,11 @@
     }else if (indexPath.row == 8){
         MVVMTextViewController *vc = [[MVVMTextViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
-    }else if(indexPath.row){
+    }else if(indexPath.row == 9){
         ViewEchartsController *vc = [[ViewEchartsController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 10){
+        TableCellModelViewController *vc = [[TableCellModelViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     
