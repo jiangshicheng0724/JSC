@@ -10,7 +10,8 @@
 8.富文本编辑
 9.MVVM
 10.Echarts
-
+11,@"UITableViewCell中model传值"
+12,@"普通的登陆页login"
 陆续更新中。。。
 
 https://github.com/jiangshicheng0724/JSC
