@@ -29,11 +29,11 @@
 
 @end
 
-@interface UIView (Alert)<Alert>
-@end
-
-@interface UIViewController (Alert)<Alert>
-@end
-
-@interface NSObject (Alert)<Alert>
-@end
+//@interface UIView (Alert)<Alert>
+//@end
+//
+//@interface UIViewController (Alert)<Alert>
+//@end
+//
+//@interface NSObject (Alert)<Alert>
+//@end
